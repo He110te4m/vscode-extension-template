@@ -1,1 +1,1 @@
-# vscode-extensions-template
+# vscode-extension-template
