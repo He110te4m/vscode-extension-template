@@ -15,14 +15,6 @@
     "onCommand:vscode-extension-template.helloWorld"
   ],
   "main": "./out/extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "vscode-extension-template.helloWorld",
-        "title": "Hello World"
-      }
-    ]
-  },
   "scripts": {
     "vscode:prepublish": "yarn run compile",
     "compile": "tsc -p ./",
@@ -42,5 +34,13 @@
     "glob": "^7.2.0",
     "mocha": "^9.1.3",
     "typescript": "^4.8.3"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-extension-template.helloWorld",
+        "title": "Hello World"
+      }
+    ]
   }
 }
